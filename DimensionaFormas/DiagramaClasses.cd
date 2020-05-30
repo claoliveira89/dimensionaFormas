@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DimensionaFormas.ElemEstrut" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Concreto" Type="DimensionaFormas.Concreto">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.244" Y="0.331" Height="0.182" Width="0.795" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAABAAAAAAAAQAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\ElemEstrut.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Concreto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.Laje" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAABAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>Classes\Laje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Material" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Coeficientes" Type="DimensionaFormas.Coeficientes">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.388" Y="0.363" Height="0.182" Width="1.055" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAYAAAAAAAAAAAAAQgAAAAAAAAAAAAAAIKEQAAAAAA=</HashCode>
+      <FileName>Classes\Material.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Coeficientes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.Coeficientes" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Coeficientes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Viga" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Viga.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormaViga" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.Pilar" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Classes\Pilar.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FormaPilar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.Concreto" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Classes\Concreto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.ElemTransv" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <AssociationLine Name="Material" Type="DimensionaFormas.Material" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="2" />
+        <Point X="10.344" Y="2" />
+        <Point X="10.344" Y="1.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.287" Y="0.675" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAgAAAAABAAAAAAAAQAAAAAAAAAQAA=</HashCode>
+      <FileName>Classes\ElemTransv.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Material" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.GuiaLaje" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAhAAAAABAAAAAAAAQAAAAAAAAQQAA=</HashCode>
+      <FileName>Classes\GuiaLaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Gravata" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Gravata.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.GravataViga" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GravataViga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.GravataPilar" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <InheritanceLine Type="DimensionaFormas.Gravata" ManuallyRouted="true">
+      <Path>
+        <Point X="9.5" Y="3.441" />
+        <Point X="9.5" Y="3.783" />
+        <Point X="10.5" Y="3.783" />
+        <Point X="10.5" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\GravataPilar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Pontalete" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Material" Type="DimensionaFormas.Material">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.088" Y="0.362" Height="0.182" Width="0.787" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAEAAAAAAAAAAANQAAAABAAAAAAAAAIAAAAAAEAABg=</HashCode>
+      <FileName>Classes\Pontalete.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Material" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.Carregamento" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Carregamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Painel" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <AssociationLine Name="Carregamento" Type="DimensionaFormas.Carregamento">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.452" Y="0.393" Height="0.182" Width="1.076" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Material" Type="DimensionaFormas.Material" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="2.031" />
+        <Point X="11.125" Y="2.031" />
+        <Point X="11.125" Y="1.062" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.453" Y="0.706" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AGAAAAAAAAAAAAAgAAAAABAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Painel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Carregamento" />
+      <Property Name="Material" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DimensionaFormas.PainelLaje" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEAAAAAAAABAAAAoAAAAABAAAAgAAAQIAQAAGAAAAAg=</HashCode>
+      <FileName>Classes\PainelLaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Classes.PainelPilar" Collapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PainelPilar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Classes.PainelViga" Collapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PainelViga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Classes.Forma" Collapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Forma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Classes.FormaLaje" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAACAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\FormaLaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Classes.FormaPilar" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FormaPilar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DimensionaFormas.Classes.FormaViga" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAICAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FormaViga.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

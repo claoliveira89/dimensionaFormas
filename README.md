@@ -1,1 +1,3 @@
-# dimensionaFormas
+# Dimensionamento de Fôrmas de Madeira
+
+Projeto apresentado como parte do Trabalho de Conclusão de Curso de Engenharia de Produção Civil no CEFET-MG, tendo como foco converter uma metodologia de cálculo de fôrmas de madeira para estruturas de concreto armado moldado “in loco” em um sistema educacional de simulação, que dimensiona tais estruturas com o intuito de facilitar o estudo das mesmas nos cursos de graduação em Engenharia Civil. A metodologia de cálculo  foi organizada e codificada por meio da linguagem orientada a objetos C#, criando uma estrutura de classes que contém representações de elementos necessários ao dimensionamento de fôrmas de madeira (laje, pilares, vigas, concreto, material, painéis, guias, gravatas, pontaletes, etc).
